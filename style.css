@@ -31,7 +31,7 @@ a {
 }
 
 .header {
-  padding: 20px 0 150px;
+  padding: 20px 0px 150px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -47,8 +47,6 @@ a {
 .header-top-section {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  gap: 30px;
 }
 
 .header-top-section > h1 {
@@ -63,14 +61,12 @@ a {
 .header-bottom-section {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   gap: 150px;
 }
 
 .header-bottom-section-left {
   display: flex;
   flex-direction: column;
-  justify-content: left;
   gap: 20px;
 }
 
